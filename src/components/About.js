@@ -28,7 +28,7 @@ export default function About() {
     };
 
     return (
-        <div className="container" style={myStyle}>
+        <div className="container my-5" style={myStyle}>
         <h1>About Us</h1>
         <div className="accordion" id="accordionExample" style={myStyle}>
             <div className="accordion-item">
@@ -42,7 +42,7 @@ export default function About() {
                 aria-controls="collapseOne"
                 style={myStyle}
                 >
-                Accordion Item #1
+                Text Manipulation tool
                 </button>
             </h2>
             <div
@@ -51,14 +51,7 @@ export default function About() {
                 data-bs-parent="#accordionExample"
             >
                 <div className="accordion-body" style={myStyle}>
-                <strong>This is the first item's accordion body.</strong> It is
-                shown by default, until the collapse plugin adds the appropriate
-                classes that we use to style each element. These classes control
-                the overall appearance, as well as the showing and hiding via CSS
-                transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It's also worth noting that just
-                about any HTML can go within the <code>.accordion-body</code>,
-                though the transition does limit overflow.
+                This is a text manipulation tool which is used for natural language processing tasks. 
                 </div>
             </div>
             </div>
@@ -73,7 +66,7 @@ export default function About() {
                 aria-controls="collapseTwo"
                 style={myStyle}
                 >
-                Accordion Item #2
+                Efficient and Fast
                 </button>
             </h2>
             <div
@@ -82,14 +75,7 @@ export default function About() {
                 data-bs-parent="#accordionExample"
             >
                 <div className="accordion-body" style={myStyle}>
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the appropriate
-                classes that we use to style each element. These classes control
-                the overall appearance, as well as the showing and hiding via CSS
-                transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It's also worth noting that just
-                about any HTML can go within the <code>.accordion-body</code>,
-                though the transition does limit overflow.
+                This is very light weight and fast performing text manipulation tool.
                 </div>
             </div>
             </div>
@@ -104,7 +90,7 @@ export default function About() {
                 aria-controls="collapseThree"
                 style={myStyle}
                 >
-                Accordion Item #3
+                Data preparation for large language models
                 </button>
             </h2>
             <div
@@ -113,14 +99,7 @@ export default function About() {
                 data-bs-parent="#accordionExample"
             >
                 <div className="accordion-body" style={myStyle}>
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the appropriate
-                classes that we use to style each element. These classes control
-                the overall appearance, as well as the showing and hiding via CSS
-                transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It's also worth noting that just
-                about any HTML can go within the <code>.accordion-body</code>,
-                though the transition does limit overflow.
+                This tool can be used for data preparation tasks for large language models.
                 </div>
             </div>
             </div>

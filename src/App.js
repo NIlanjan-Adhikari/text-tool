@@ -5,6 +5,7 @@ import About from "./components/About";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
 import Alert from "./components/Alert";
+import LLM from "./components/LLM";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
             </div>
           }
         />
+        <Route path="/LLM" element={<LLM />} />
       </Routes>
     </>
   );
